@@ -1,0 +1,37 @@
+
+.BGRturquoise { background-image: linear-gradient(  rgb(0, 95, 119), rgb(230, 230, 230) );  }
+.BGRred { background-image: linear-gradient( rgb(177, 27, 0) ,rgb(230, 230, 230)  );  }
+.BGRgreen { background-image: linear-gradient(  rgb(74, 104, 4) ,rgb(230, 230, 230)  ); }
+.BGRpink { background-image: linear-gradient(  rgb(135, 66, 141) ,rgb(230, 230, 230)  ); }
+.BGRpink2 { background-image: linear-gradient(  rgb(180, 9, 196) ,rgb(230, 230, 230)  ); }
+
+.BGwhite { background-color: white; }
+.BGtranslucent { background-color: rgba(255, 255, 255, 0.5); }
+.BGpearl { background-color: rgb(235, 235, 235); }
+.BGclear { background-color: rgba(8, 138, 170, 0); }
+.BGlime {  background-color: rgb(218, 250, 74); }
+.BGlemon {  background-color: rgb(255, 244, 88); }
+.BGavo {  background-color: rgb(198, 223, 110); }
+.BGpumpkin {  background-color: rgb(216, 205, 102); }
+.BGtropicalOcean {  background-color: rgb(151, 214, 223); }
+.BGlavender {  background-color: rgb(234, 202, 255); }
+.BGstrawberry {  background-color: rgb(255, 175, 224); }
+
+.BGlightGrey {  background-color: rgb(211, 211, 211) ; }
+.BGmediumGrey {  background-color: rgb(126, 126, 126) ; }
+.BGdarkGrey {  background-color: rgb(71, 71, 71) ; }
+.BGgreen {  background-color: rgb(43, 175, 25) ;  }
+.BGblue {  background-color: rgb(0, 143, 179) ;  }
+.BGred {  background-color: rgb(219, 50, 8) ;  }
+.BGpink {  background-color: rgb(212, 0, 255) ;  }
+.BGblack {  background-color: rgb(0, 0, 0) ;  }
+.BGtomato {  background-color: rgb(219, 63, 63) ;  }
+
+.Ttranslucent { color: rgba(255, 255, 255, 0.5); }
+.Twhite { color: rgb(255, 255, 255); }
+.Tred {  color: rgb(255, 0, 0) ;  }
+.Ttomato {  color:rgb(219, 63, 63) ;  }
+.Tgreen {  color: rgb(0, 141, 7) ;  }
+.Tblack {  color: rgb(0, 0, 0) ;  }
+.Tpink { color: rgb(212, 0, 255) ;  }
+.TmediumGrey {  color: rgb(126, 126, 126) ; }

@@ -1,0 +1,16 @@
+
+<body class="BGwhite" >
+
+        <%- include ( '../_xrefs/linkFunctions.ejs' ) %>
+        <%-  include( '../_xrefs/ExitToPublicBtn/ExitToPublicBtn.ejs' ) %> 
+
+        <div ><%= content.cover %></div>
+        <h2 ><%= content.title %></h2>
+        <h4 class="TmediumGrey" ><%= content.createdAt.toDateString() %>......<%= content.createdAt.toLocaleTimeString() %></h4>
+        <h4 id="time"></h4>
+
+        <h4 ><%= content.summary %></h4>
+        <br><br><br>
+        <p ><%- content.description %></div>
+
+</body>

@@ -1,0 +1,10 @@
+
+<%- include ( '../_xrefs/linkFunctions.ejs' ) %>
+<%-  include( '../_xrefs/ExitToPublicBtn/ExitToPublicBtn.ejs' ) %> 
+
+<div class="card cardFull">
+        <h2>Edit this entry.</h2>
+        <form action="/<%= note.id %>?_method=PUT"  method="POST" >
+                <%- include( './fields.ejs' ) %> 
+        </form>
+</div>

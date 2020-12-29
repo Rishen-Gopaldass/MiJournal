@@ -1,0 +1,55 @@
+
+<section id="IDfilter" class="sliderClose BGRgreen" >
+        <button class="closeBtnSlider"  onclick="CloseAllSliders () " >X</button>
+        <section class="viewport2 ">
+
+                <div class="filterTitle2" >Location</div>
+                <button  class="viewTitle"   id="IDaddress"  onclick="OpenTravel ()" >Default Location</button>
+
+                <div class="filterTitle2" >Radius of Interaction</div>
+                <button class="viewTitle"  id="IDradiusSelected" >8 699.2 miles / 14 000 km</button>
+                <input type="range" placeholder="Set a Radius" id="IDradiusValue" value="14000" min="200" max="14000" class="radiusSlide " required onclick="ChooseRadius ()" >
+
+
+                <div class="filterTitle2" >Category</div>
+                <select class="viewTitle" >
+                        <option  onclick="ViewAllContent ()" >All Categories</option>
+                        <option  >People</option>
+                        <option  >Business</option>
+                        <option  >Shopping</option>
+                        <option  >Romance</option>
+                        <option  >Family</option>
+                        <option  >Education</option>
+                        <option  >Jobs</option>
+                        <option  >Competition</option>
+                        <option  >Events</option>
+                        <option >Talent</option>
+                        <option >Music</option>
+                        <option >Videos</option>
+                        <option  >Pictures</option>
+                        <option >Gif</option>
+                        <option  >Help</option>
+                </select>
+        </section>
+
+</section>
+
+
+
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<section id="IDtravel" class='travelSliderClose' >
+        <div id="myMap"  onclick="GetCoordinates ()"></div>
+        <section class="travelDisplayBar">
+                <input type="text" id="IDlocation" class="displayLocation" placeholder="Location" ></input>
+        </section>
+        <nav class="navBottom3">
+                <button class="btn btnBig BGred" onclick="CloseMap() " >Cancel</button>	
+                <button id="IDcreateAddress" class="hide" onclick="DefineCreateAddress ()" >Create</button>
+                <button type="text"  id="IDtravelSubmitBtn" class="hide" onclick="DefineTravelLocation () ">Travel</button>
+        </nav>
+</section>

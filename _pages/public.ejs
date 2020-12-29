@@ -1,0 +1,22 @@
+
+<%- include ( '../_xrefs/linkFunctions.ejs' ) %>
+<%- include ( '../_xrefs/linkPages.ejs' ) %>
+
+
+<% content.forEach( content => { %>
+
+        <div class="card cardSmall">
+                <h3 ><%= content.title %></h3>
+                <h4 class="TmediumGrey" ><%= content.createdAt.toDateString() %>......<%= content.createdAt.toLocaleTimeString() %></h4>
+                <p ><%= content.summary %></p>
+                <br>
+
+                <form action="/<%= content.id %>?_method=DELETE" method="POST" class="inline" >
+                        <button type="submit" class="btn BGred f-right " >Delete</button>
+                 </form>
+                 <a href="/Edit/<%= content.id %>" class="btn BGdarkGrey f-right " >Edit</a>
+                 <a href="/<%= content.id %>" class="btn BGblue f-right " >Read more</a>
+
+        </div>
+
+<% } ) %>

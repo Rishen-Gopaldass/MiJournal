@@ -1,0 +1,31 @@
+
+<section  id="IDsignUpPrompt" class="hide" >
+        <section class="cardPopup" >
+
+                <form action="/" method="POST">
+                                <h2>Create Free Profile</h2>
+                                <select id="IDprofileTypeCreateNew" required class="inputField" >
+                                        <option value="">Profile type?</option>
+                                        <option value="Personal">Personal</option>
+                                        <option value="Business">Business</option>
+                                </select>
+                                <input type="text" id="IDnameCreateNew" class="inputField"  placeholder="Name" required autocomplete="on" minlength="4" maxlength="20" ><br>
+                                <input type="email" id="IDemailCreateNew" class="inputField"  placeholder="Email" required autocomplete="on" ><br>
+                                <input type="password" id="IDpasswordCreateNew" class="inputField" placeholder="Password" required autocomplete="on" minlength="8"><br>
+                                <select id="IDrememberCreateNew" required class="inputField" >
+                                        <option value="">Remember login?</option>
+                                        <option value="Yes">Yes</option>
+                                        <option value="No">No</option>
+                                </select>
+                                <input type="text" id="IDaddressCreateNew" class="inputField" placeholder="Choose a home address" onclick="CreateAddress ()" required  ><br>
+                                <a href="/home/policies"  >By creating a profile you agree to the website's policies </a>
+                                <section class="signUpBtnBox" >
+
+                                        <button type="submit" class="btn btnBig BGgreen" id="IDcreateBtnNew" onclick="VerifyAccount ()" >Create</button>
+                        </section>
+                </form>
+
+                <button class="btn btnBig BGred" onclick="Show( 'IDsignUpPrompt' , 'hide' )" >Cancel</button>
+        </section>
+        
+</section>
